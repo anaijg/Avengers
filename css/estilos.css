@@ -1,0 +1,112 @@
+* {
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    color: white;
+    padding: 3em;
+    margin: 20px auto;
+    width: 90%;
+    height: 40%;    
+}
+
+header img {
+    border: 3px solid black;
+}
+
+main {
+    border: 3px solid black;
+    height: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+aside {
+    border: 3px solid black;
+
+    justify-content: left;
+    display: flex;
+    width: 23%;
+    margin: 1%;
+    flex-direction: column;
+    
+}
+
+article {
+    border: 3px solid black;
+    padding: 1em;
+    width: 73%;
+    margin: 1%;
+    justify-content: center;
+}
+
+table {
+    border: 3px dashed blueviolet;
+    border-collapse: collapse;
+    padding: 1em;
+    width: 98%;
+    margin: 1%;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+}
+
+th {
+    border-bottom: 3px solid blueviolet;
+    font-size: 2em;
+    color: blueviolet;
+    padding: 1em;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.capitan {
+    color: blue;
+}
+
+.ironman {
+    color: darkred;
+}
+
+.thor {
+    color: darkgray;
+}
+
+.hulk {
+    color: green;
+}
+
+.spiderman {
+    color: red;
+}
+
+footer {
+    border: 3px solid black;
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 16%;
+
+}
+
